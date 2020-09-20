@@ -1,0 +1,32 @@
+<resources>
+    <!--> Aqui eu configuro o texto do titulo do app </!-->
+    <string name="app_name">Sakura Restaurante</string>
+
+    <!--> Aqui eu coloco um texto "Sakura" para o meu textview de nome do restaurante</!-->
+    <string name="title_restaurant">Sakura</string>
+
+    <!--> Aqui eu configuro o texto do botão de fazer pedido</!-->
+    <string name="botao_fazer_pedido">Faça seu pedido!</string>
+
+    <!--> Aqui eu configuro o texto do botão de horas trabalhadas</!-->
+    <string name="botao_consultar_horas">Consultar horas trabalhadas</string>
+
+    <!--> Aqui eu configuro o texto do botão de contatar cozinha</!-->
+    <string name="botao_contatar_cozinha"> Contatar cozinha</string>
+
+    <!--> Aqui eu configuro o texto do botão de enviar mensagem para a cozinha</!-->
+    <string name="botao_enviar_mensagem">Enviar mensagem</string>
+
+    <!--> Aqui eu configuro o texto da dica de enviar mensagem para a cozinha</!-->
+    <string name="dica_contatar_cozinha">Digite aqui sua mensagem para a cozinha</string>
+
+    <!--> Aqui eu configuro o texto do botão de iniciar o cronometro para contar o tempo das horas trabalhadas </!-->
+    <string name="botao_iniciar_horas_trabalhadas">Iniciar contagem</string>
+
+    <!--> Aqui faço o texto do botão de parar o tempo do contador de tempo das horas trabalhadas </!-->
+    <string name="botao_parar_contagem_horas_trabalhadas">Parar contagem</string>
+
+    <!--> Aqui faço o texto do botão de zerar o tempo do contador de tempo das horas trabalhadas </!-->
+    <string name="botao_zerar_contagem_horas_trabalhadas">Zerar contagem</string>
+
+</resources>

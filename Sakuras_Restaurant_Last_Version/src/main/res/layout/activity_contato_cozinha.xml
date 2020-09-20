@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#EFB0C5"
+    tools:context=".ContatoCozinhaActivity">
+
+    <!--> Campo de texto para inserir a mensagem</!-->
+    <EditText
+        android:id="@+id/editContatarCozinha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#FFFFFF"
+        android:hint="@string/dica_contatar_cozinha"
+        android:ems="40"
+        />
+    <!--> Botão que ao ser clicado irá abrir as aplicações disponiveis no celular para enviar a mensagem</!-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:background="#FFFFFF"
+        android:text="@string/botao_enviar_mensagem"
+        android:onClick="onClickEnviarMensagem"
+        />
+
+</LinearLayout>
